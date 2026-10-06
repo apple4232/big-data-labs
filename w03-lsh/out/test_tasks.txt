@@ -1,0 +1,31 @@
+
+=== Task 1
+  ok    jaccard(S1, S4)                              0.6667
+  ok    jaccard(S1, S2)                              0.0
+  ok    jaccard on empty sets                        0.0
+  ok    signature of S1                              [1, 0]
+  ok    signature of S2                              [3, 2]
+  ok    signature of S3                              [0, 0]
+  ok    signature of S4                              [1, 0]
+  ok    S1 and S4 are candidates                     True
+  ok    S1 and S2 are not                            False
+
+  all ok
+  Note that S1 and S4 agree in both signature positions, which estimates
+  their similarity as 1.0 when it is actually 2/3. Two hashes is not many.
+  ok   [1] textbook example reproduced
+
+=== Task 2
+  ok   [2] A1 five or more sizes  - [125, 250, 500, 1000, 2000, 4000]
+  ok   [2] A1 spans 16x or more  - 32x
+  ok   [2] A6 machine recorded
+  ok   [2] out/curve.md exists
+
+=== Task 3
+  baseline     comparisons  2,246,140   recall 100.0%   precision 100.0%    22.96s
+  yours        comparisons        248   recall 100.0%   precision 100.0%     1.98s
+  ok   [3] R3 recall at least 90%  - 100.0%
+  ok   [3] R4 fewer comparisons  - 99.99% avoided
+ skip  [3] R5 S-curve arithmetic in observation.md  - graded by a human
+
+  7 passed, 0 failed, 1 skipped

@@ -1,0 +1,92 @@
+{
+  "runs": [
+    {
+      "n": 125,
+      "threshold": 0.6,
+      "brute_pairs": 8,
+      "brute_s": 0.09220149999600835,
+      "brute_calls": 7750,
+      "brute_peak_bytes": 7912,
+      "lsh_pairs": 8,
+      "lsh_recall": 1.0,
+      "lsh_s": 2.1406382000132,
+      "lsh_calls": 11,
+      "lsh_peak_bytes": 1681029
+    },
+    {
+      "n": 250,
+      "threshold": 0.6,
+      "brute_pairs": 15,
+      "brute_s": 0.5658409000025131,
+      "brute_calls": 31125,
+      "brute_peak_bytes": 8192,
+      "lsh_pairs": 15,
+      "lsh_recall": 1.0,
+      "lsh_s": 3.505309900006978,
+      "lsh_calls": 17,
+      "lsh_peak_bytes": 2403152
+    },
+    {
+      "n": 500,
+      "threshold": 0.6,
+      "brute_pairs": 29,
+      "brute_s": 1.8654491000052076,
+      "brute_calls": 124750,
+      "brute_peak_bytes": 10376,
+      "lsh_pairs": 29,
+      "lsh_recall": 1.0,
+      "lsh_s": 4.9834439999831375,
+      "lsh_calls": 31,
+      "lsh_peak_bytes": 3727304
+    },
+    {
+      "n": 1000,
+      "threshold": 0.6,
+      "brute_pairs": 57,
+      "brute_s": 8.263577299978351,
+      "brute_calls": 499500,
+      "brute_peak_bytes": 12232,
+      "lsh_pairs": 57,
+      "lsh_recall": 1.0,
+      "lsh_s": 5.22719189999043,
+      "lsh_calls": 82,
+      "lsh_peak_bytes": 5907604
+    },
+    {
+      "n": 2000,
+      "threshold": 0.6,
+      "brute_pairs": 114,
+      "brute_s": 31.89836990000913,
+      "brute_calls": 1999000,
+      "brute_peak_bytes": 21704,
+      "lsh_pairs": 114,
+      "lsh_recall": 1.0,
+      "lsh_s": 7.913334599987138,
+      "lsh_calls": 221,
+      "lsh_peak_bytes": 9918340
+    },
+    {
+      "n": 4000,
+      "threshold": 0.6,
+      "brute_pairs": 231,
+      "brute_s": 129.20052460001898,
+      "brute_calls": 7998000,
+      "brute_peak_bytes": 29352,
+      "lsh_pairs": 231,
+      "lsh_recall": 1.0,
+      "lsh_s": 13.119768300006399,
+      "lsh_calls": 694,
+      "lsh_peak_bytes": 17814228
+    }
+  ],
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+    "python": "3.12.2",
+    "background_activity": "Codex and its browser were open; other background load was not controlled.",
+    "measurement": "perf_counter wall time with tracemalloc; peak excludes prebuilt input documents and process RSS",
+    "ram_bytes": 17023303680,
+    "available_ram_bytes": 343609344,
+    "memory_load_percent": 97
+  }
+}

@@ -1,0 +1,8 @@
+== w03-lsh/out/ ==
+
+  [ok]      crossover.json       timings from task2_crossover.py  (2,467 bytes)
+  [ok]      curve.md             the curve and where it broke  (3,761 bytes)
+  [ok]      bench.txt            python3 bench.py --yours  (337 bytes)
+  [ok]      observation.md       2-3 lines per task  (2,102 bytes)
+
+  Format check passed. Whether it is right is up to you.

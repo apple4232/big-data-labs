@@ -1,0 +1,9 @@
+  n=   125  brute     0.09s         7,750 cmp   |  lsh    2.14s         11 cmp
+  n=   250  brute     0.57s        31,125 cmp   |  lsh    3.51s         17 cmp
+  n=   500  brute     1.87s       124,750 cmp   |  lsh    4.98s         31 cmp
+  n=  1000  brute     8.26s       499,500 cmp   |  lsh    5.23s         82 cmp
+  n=  2000  brute    31.90s     1,999,000 cmp   |  lsh    7.91s        221 cmp
+  n=  4000  brute   129.20s     7,998,000 cmp   |  lsh   13.12s        694 cmp
+
+  -> out/crossover.json  (6 measurement(s))
+  Keep raising --sizes until something becomes unpleasant. Record where.

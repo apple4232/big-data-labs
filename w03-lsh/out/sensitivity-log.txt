@@ -1,0 +1,3 @@
+{"hashes": 120, "bands": 40, "rows": 3, "step": 0.2924017738212866, "candidate_probability_at_0.6": 0.9999407562545336, "true_pairs": 121, "found_pairs": 121, "recall": 1.0, "comparisons": 248, "seconds": 2.2313796000089496}
+{"hashes": 120, "bands": 30, "rows": 4, "step": 0.42728700639623407, "candidate_probability_at_0.6": 0.9844558681786542, "true_pairs": 121, "found_pairs": 119, "recall": 0.9834710743801653, "comparisons": 132, "seconds": 2.480352899990976}
+{"hashes": 120, "bands": 10, "rows": 12, "step": 0.8254041852680184, "candidate_probability_at_0.6": 0.021555829228071532, "true_pairs": 121, "found_pairs": 39, "recall": 0.32231404958677684, "comparisons": 39, "seconds": 1.9403441000031307}
