@@ -9,5 +9,4 @@
 
 제출 URL: <https://github.com/apple4232/big-data-labs>
 
-원본 실습: <https://github.com/codingchild2424/2026-lecture-bigdata-practice>, 기준 커밋 `849281e`.
-이번 작업에서는 `w04-stream/`만 추가했다. 기존 3·5주차 제출물은 보존했다.
+원본 실습: <https://github.com/codingchild2424/2026-lecture-bigdata-practice>
