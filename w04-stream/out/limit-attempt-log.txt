@@ -1,0 +1,5 @@
+  Starting exact n=25,000,000
+  STOPPED n=25,000,000: predeclared wall-time limit; processed=6,800,000, time=60.97s, traced peak=390.2 MB
+
+  -> out/limits.json  (5 measurement(s))
+  Keep raising --sizes until the exact version is unbearable. Record where, and what ran out.

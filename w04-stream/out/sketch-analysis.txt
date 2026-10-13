@@ -1,0 +1,103 @@
+{
+  "bloom": {
+    "predicted_rate": 0.008604676553283444,
+    "false_positives": 180,
+    "queries": 20000,
+    "measured_rate": 0.009
+  },
+  "fm_combining": {
+    "truth": 19953,
+    "registers": [
+      14,
+      14,
+      12,
+      13,
+      12,
+      15,
+      12,
+      13,
+      15,
+      13,
+      14,
+      18,
+      14,
+      16,
+      15,
+      16,
+      14,
+      14,
+      14,
+      14,
+      14,
+      16,
+      17,
+      15,
+      17,
+      16,
+      17,
+      13,
+      16,
+      14,
+      13,
+      16,
+      15,
+      13,
+      15,
+      15,
+      13,
+      14,
+      15,
+      14,
+      17,
+      16,
+      18,
+      13,
+      15,
+      13,
+      13,
+      14,
+      13,
+      15,
+      15,
+      15,
+      14,
+      17,
+      14,
+      17,
+      16,
+      13,
+      15,
+      18,
+      11,
+      15,
+      17,
+      16
+    ],
+    "rules": {
+      "arithmetic_mean_of_2_to_R": {
+        "estimate": 48608.0,
+        "ratio": 2.4361248934997244
+      },
+      "median_of_2_to_R": {
+        "estimate": 32768.0,
+        "ratio": 1.6422593093770361
+      },
+      "median_of_group_geometric_means_with_max_R_correction": {
+        "estimate": 24915.464028185474,
+        "ratio": 1.2487076644206623
+      }
+    }
+  },
+  "budget": {
+    "total_retained_bits": 80000,
+    "instance_bytes": 40,
+    "buffer_bytes_including_header": 9960,
+    "seed_bytes_inside_buffer": 8,
+    "usable_bits": 79160,
+    "hashes": 7,
+    "continuous_k_optimum_at_10_bits": 6.931471805599453,
+    "bloom_floor_at_10_bits": 0.008192549468178961,
+    "predicted_at_effective_bits": 0.008621707872845977
+  }
+}
+24 independent-count trials: min=0.684x, max=1.201x; within 2x=24/24

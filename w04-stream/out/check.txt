@@ -1,0 +1,8 @@
+== w04-stream/out/ ==
+
+  [ok]      limits.json          timings from task2_limits.py  (3,005 bytes)
+  [ok]      limits.md            the memory curve and where it broke  (3,402 bytes)
+  [ok]      bench.txt            python3 bench.py --yours  (340 bytes)
+  [ok]      observation.md       2-3 lines per task  (2,592 bytes)
+
+  Format check passed. Whether it is right is up to you.

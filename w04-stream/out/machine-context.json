@@ -1,0 +1,59 @@
+{
+  "captured_at": "2026-10-13T20:07:02.1800161+09:00",
+  "cpu": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+  "cores": 6,
+  "logical_processors": 12,
+  "ram_total_bytes": 17023303680,
+  "ram_available_bytes": 4522872832,
+  "running_process_groups": [
+    {
+      "Name": "svchost",
+      "Count": 87
+    },
+    {
+      "Name": "conhost",
+      "Count": 17
+    },
+    {
+      "Name": "ChatGPT",
+      "Count": 15
+    },
+    {
+      "Name": "firefox",
+      "Count": 13
+    },
+    {
+      "Name": "msedgewebview2",
+      "Count": 6
+    },
+    {
+      "Name": "node",
+      "Count": 6
+    },
+    {
+      "Name": "node_repl",
+      "Count": 5
+    },
+    {
+      "Name": "AVGUI",
+      "Count": 4
+    },
+    {
+      "Name": "cmd",
+      "Count": 4
+    },
+    {
+      "Name": "asus_framework",
+      "Count": 3
+    },
+    {
+      "Name": "DwarfAxe",
+      "Count": 3
+    },
+    {
+      "Name": "nvcontainer",
+      "Count": 3
+    }
+  ],
+  "note": "Local Windows PC; background programs left running; not an isolated benchmark"
+}

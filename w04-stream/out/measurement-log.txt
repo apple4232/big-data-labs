@@ -1,0 +1,15 @@
+  Starting exact n=100,000
+  Starting FM n=100,000 (exact 1.92s, 3.9 MB)
+  n=   100,000  distinct    36,702   exact    1.92s      3.9 MB   |  fm    5.34s   0.01 MB  0.84x
+  Starting exact n=400,000
+  Starting FM n=400,000 (exact 4.37s, 11.6 MB)
+  n=   400,000  distinct   146,970   exact    4.37s     11.6 MB   |  fm   15.81s   0.01 MB  0.92x
+  Starting exact n=1,600,000
+  Starting FM n=1,600,000 (exact 19.50s, 46.6 MB)
+  n= 1,600,000  distinct   587,625   exact   19.50s     46.6 MB   |  fm   66.58s   0.01 MB  0.84x
+  Starting exact n=6,400,000
+  Starting FM n=6,400,000 (exact 63.88s, 188.3 MB)
+  n= 6,400,000  distinct 2,349,909   exact   63.88s    188.3 MB   |  fm  273.31s   0.01 MB  1.14x
+
+  -> out/limits.json  (4 measurement(s))
+  Keep raising --sizes until the exact version is unbearable. Record where, and what ran out.

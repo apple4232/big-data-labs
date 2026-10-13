@@ -1,0 +1,6 @@
+  ok    no false negatives
+  ok    measured false-positive rate matches theory    measured 0.900%, predicted 0.860%
+  ok    distinct estimate within a factor of 2         estimated 24,915, true 19,953 (1.25x)
+  ok    reservoir is uniform across items              spread 8.9% around 1000
+
+  all ok

@@ -1,0 +1,122 @@
+{
+  "runs": [
+    {
+      "n": 100000,
+      "true_distinct": 36702,
+      "exact_s": 1.91585660004057,
+      "exact_peak_bytes": 3925712,
+      "status": "completed",
+      "fm_estimate": 30941.463644838008,
+      "fm_s": 5.341003900044598,
+      "fm_peak_bytes": 9625,
+      "fm_ratio": 0.8430457099024034
+    },
+    {
+      "n": 400000,
+      "true_distinct": 146970,
+      "exact_s": 4.37092259991914,
+      "exact_peak_bytes": 11591408,
+      "status": "completed",
+      "fm_estimate": 134967.62145870717,
+      "fm_s": 15.810156500083394,
+      "fm_peak_bytes": 9610,
+      "fm_ratio": 0.918334499957183
+    },
+    {
+      "n": 1600000,
+      "true_distinct": 587625,
+      "exact_s": 19.503257100004703,
+      "exact_peak_bytes": 46647706,
+      "status": "completed",
+      "fm_estimate": 495063.4183174081,
+      "fm_s": 66.57518609997351,
+      "fm_peak_bytes": 9683,
+      "fm_ratio": 0.8424818860964188
+    },
+    {
+      "n": 6400000,
+      "true_distinct": 2349909,
+      "exact_s": 63.876496999990195,
+      "exact_peak_bytes": 188287686,
+      "status": "completed",
+      "fm_estimate": 2681769.521367557,
+      "fm_s": 273.31202950002626,
+      "fm_peak_bytes": 9666,
+      "fm_ratio": 1.1412227117592881
+    },
+    {
+      "n": 25000000,
+      "true_distinct": null,
+      "status": "stopped",
+      "stop_reason": "predeclared wall-time limit",
+      "items_processed": 6800000,
+      "partial_distinct": 4933206,
+      "exact_s": 60.974546299898066,
+      "exact_peak_bytes": 390200326,
+      "time_limit_s": 60.0,
+      "memory_limit_bytes": 805306368.0
+    }
+  ],
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python": "3.12.2",
+    "captured_at": "2026-10-13T20:07:02.1800161+09:00",
+    "cpu": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+    "cores": 6,
+    "logical_processors": 12,
+    "ram_total_bytes": 17023303680,
+    "ram_available_bytes": 4522872832,
+    "running_process_groups": [
+      {
+        "Name": "svchost",
+        "Count": 87
+      },
+      {
+        "Name": "conhost",
+        "Count": 17
+      },
+      {
+        "Name": "ChatGPT",
+        "Count": 15
+      },
+      {
+        "Name": "firefox",
+        "Count": 13
+      },
+      {
+        "Name": "msedgewebview2",
+        "Count": 6
+      },
+      {
+        "Name": "node",
+        "Count": 6
+      },
+      {
+        "Name": "node_repl",
+        "Count": 5
+      },
+      {
+        "Name": "AVGUI",
+        "Count": 4
+      },
+      {
+        "Name": "cmd",
+        "Count": 4
+      },
+      {
+        "Name": "asus_framework",
+        "Count": 3
+      },
+      {
+        "Name": "DwarfAxe",
+        "Count": 3
+      },
+      {
+        "Name": "nvcontainer",
+        "Count": 3
+      }
+    ],
+    "note": "Local Windows PC; background programs left running; not an isolated benchmark"
+  }
+}

@@ -1,0 +1,12 @@
+test_bloom_padding_duplicates_and_no_false_negatives (__main__.SketchTests.test_bloom_padding_duplicates_and_no_false_negatives) ... ok
+test_empty_and_duplicate_streams (__main__.SketchTests.test_empty_and_duplicate_streams) ... ok
+test_full_budget_independently_counts_all_owned_state (__main__.SketchTests.test_full_budget_independently_counts_all_owned_state) ... ok
+test_invalid_sizes (__main__.SketchTests.test_invalid_sizes) ... ok
+test_packed_maxima_equal_independent_scalar_oracle (__main__.SketchTests.test_packed_maxima_equal_independent_scalar_oracle) ... ok
+test_packed_zero_and_high_bit_boundaries (__main__.SketchTests.test_packed_zero_and_high_bit_boundaries) ... ok
+test_reservoir_unknown_length_and_short_stream (__main__.SketchTests.test_reservoir_unknown_length_and_short_stream) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.179s
+
+OK
